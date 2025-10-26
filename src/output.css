@@ -326,6 +326,9 @@
   .justify-center {
     justify-content: center;
   }
+  .justify-start {
+    justify-content: flex-start;
+  }
   .gap-\[0px\] {
     gap: 0px;
   }
@@ -505,9 +508,19 @@
       height: 306px;
     }
   }
+  .md\:w-\[7px\] {
+    @media (width >= 766px) {
+      width: 7px;
+    }
+  }
   .md\:w-\[331px\] {
     @media (width >= 766px) {
       width: 331px;
+    }
+  }
+  .md\:w-\[344\] {
+    @media (width >= 766px) {
+      width: 344;
     }
   }
   .md\:w-\[344px\] {
@@ -518,6 +531,16 @@
   .md\:w-\[353px\] {
     @media (width >= 766px) {
       width: 353px;
+    }
+  }
+  .md\:w-\[708px\] {
+    @media (width >= 766px) {
+      width: 708px;
+    }
+  }
+  .md\:justify-center {
+    @media (width >= 766px) {
+      justify-content: center;
     }
   }
   .md\:gap-\[100px\] {
@@ -538,6 +561,11 @@
   .md\:pb-\[100px\] {
     @media (width >= 766px) {
       padding-bottom: 100px;
+    }
+  }
+  .md\:pl-\[40px\] {
+    @media (width >= 766px) {
+      padding-left: 40px;
     }
   }
   .md\:text-\[50px\] {
@@ -575,6 +603,11 @@
       width: 270px;
     }
   }
+  .xl\:w-\[367px\] {
+    @media (width >= 1440px) {
+      width: 367px;
+    }
+  }
   .xl\:w-\[449px\] {
     @media (width >= 1440px) {
       width: 449px;
@@ -593,6 +626,11 @@
   .xl\:w-\[580px\] {
     @media (width >= 1440px) {
       width: 580px;
+    }
+  }
+  .xl\:justify-start {
+    @media (width >= 1440px) {
+      justify-content: flex-start;
     }
   }
   .xl\:gap-\[60px\] {
@@ -618,6 +656,11 @@
   .xl\:pl-\[0px\] {
     @media (width >= 1440px) {
       padding-left: 0px;
+    }
+  }
+  .xl\:pl-\[180px\] {
+    @media (width >= 1440px) {
+      padding-left: 180px;
     }
   }
   .xl\:pl-\[190px\] {
