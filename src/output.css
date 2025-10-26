@@ -283,6 +283,12 @@
   .gap-\[0px\] {
     gap: 0px;
   }
+  .gap-\[2px\] {
+    gap: 2px;
+  }
+  .gap-\[3px\] {
+    gap: 3px;
+  }
   .gap-\[12px\] {
     gap: 12px;
   }
@@ -291,6 +297,9 @@
   }
   .gap-\[34px\] {
     gap: 34px;
+  }
+  .gap-\[35px\] {
+    gap: 35px;
   }
   .gap-\[60px\] {
     gap: 60px;
